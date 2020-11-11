@@ -5,11 +5,9 @@ Home: https://github.com/Jhsmit/PymageJ
 
 Package license: GPL2
 
-Feedstock license: BSD-3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/pymagej-feedstock/blob/master/LICENSE.txt)
 
 Summary: Python tools for ImageJ
-
-
 
 Current build status
 ====================
