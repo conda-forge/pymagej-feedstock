@@ -31,7 +31,6 @@ test:
 about:
   home: https://github.com/Jhsmit/PymageJ
   license: GPL-2.0-or-later
-  license_family: GPL
   license_file: LICENSE.txt
   summary: Python tools for ImageJ
 
