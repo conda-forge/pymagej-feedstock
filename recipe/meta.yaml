@@ -32,10 +32,6 @@ about:
   home: https://github.com/Jhsmit/PymageJ
   license: GPL2
   license_family: GPL
-  # Not currently included, but will be with referenced PR.
-  #
-  # https://github.com/Jhsmit/PymageJ/pull/2
-  #
   license_file: LICENSE.txt
   summary: Python tools for ImageJ
 
