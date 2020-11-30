@@ -3,19 +3,23 @@ About pymagej
 
 Home: https://github.com/Jhsmit/PymageJ
 
-Package license: GPL2
+Package license: GPL-2.0-or-later
 
-Feedstock license: BSD-3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/pymagej-feedstock/blob/master/LICENSE.txt)
 
 Summary: Python tools for ImageJ
-
-
 
 Current build status
 ====================
 
 
-<table>
+<table><tr><td>All platforms:</td>
+    <td>
+      <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=890&branchName=master">
+        <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/pymagej-feedstock?branchName=master">
+      </a>
+    </td>
+  </tr>
 </table>
 
 Current release info

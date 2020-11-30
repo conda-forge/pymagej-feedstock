@@ -1,42 +1,36 @@
-{% set name = "PymageJ" %}
-{% set version = "0.1" %}
-{% set sha256 = "a18103bbb773b88542fd84f7dffd36d7310d9644ac44e9bc6f2d5b049aa52f33" %}
+{% set name = "Pymagej" %}
+{% set version = "0.2.1" %}
+{% set sha256 = "e0b4e8266423e5d8648920219985bdd59d6f22a7e89bc34f0b40a473399aba3e" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  fn: {{ name }}-{{ version }}.zip
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.zip
+  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
   sha256: {{ sha256 }}
 
 build:
-  number: 1002
-  skip: true  # [not py2k]
+  number: 0
+  noarch: python
   script: {{ PYTHON }} -m pip install . --no-deps -vv
 
 requirements:
-  build:
-    - python
-
+  host:
+    - python >=3.5
+    - pip
   run:
-    - python
+    - python >=3.5
     - numpy
 
 test:
   imports:
-    - PymageJ
+    - pymagej
 
 about:
   home: https://github.com/Jhsmit/PymageJ
-  license: GPL2
-  license_family: GPL
-  # Not currently included, but will be with referenced PR.
-  #
-  # https://github.com/Jhsmit/PymageJ/pull/2
-  #
-  license_file: LICENSE.txt
+  license: GPL-2.0-or-later
+  license_file: LICENSE.md
   summary: Python tools for ImageJ
 
 extra:
