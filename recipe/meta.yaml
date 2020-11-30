@@ -1,4 +1,4 @@
-{% set name = "PymageJ" %}
+{% set name = "Pymagej" %}
 {% set version = "0.2.1" %}
 {% set sha256 = "e0b4e8266423e5d8648920219985bdd59d6f22a7e89bc34f0b40a473399aba3e" %}
 
